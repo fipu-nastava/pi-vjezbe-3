@@ -1,0 +1,41 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "Vjezba03\HelloWorld.csproj", "{8E5992B8-88B2-4BF1-A24B-89D84A1B6635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "V3.02", "Vjezba03.1\V3.02.csproj", "{988D9B43-2B61-4F3F-910E-1007C82AB89C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pravokutnik", "Pravokutnik\Pravokutnik.csproj", "{3979766A-B636-42B6-8F1A-3FED7549455E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolekcijeList", "Kolekcije\KolekcijeList.csproj", "{F662EF87-FF94-40DA-B93C-7B22020BEF58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolekcijeDictionary", "KolekcijeDictionary\KolekcijeDictionary.csproj", "{92E859BC-109F-4247-9766-DE8E59905A2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E5992B8-88B2-4BF1-A24B-89D84A1B6635}.Debug|x86.ActiveCfg = Debug|x86
+		{8E5992B8-88B2-4BF1-A24B-89D84A1B6635}.Debug|x86.Build.0 = Debug|x86
+		{8E5992B8-88B2-4BF1-A24B-89D84A1B6635}.Release|x86.ActiveCfg = Release|x86
+		{8E5992B8-88B2-4BF1-A24B-89D84A1B6635}.Release|x86.Build.0 = Release|x86
+		{988D9B43-2B61-4F3F-910E-1007C82AB89C}.Debug|x86.ActiveCfg = Debug|x86
+		{988D9B43-2B61-4F3F-910E-1007C82AB89C}.Debug|x86.Build.0 = Debug|x86
+		{988D9B43-2B61-4F3F-910E-1007C82AB89C}.Release|x86.ActiveCfg = Release|x86
+		{988D9B43-2B61-4F3F-910E-1007C82AB89C}.Release|x86.Build.0 = Release|x86
+		{3979766A-B636-42B6-8F1A-3FED7549455E}.Debug|x86.ActiveCfg = Debug|x86
+		{3979766A-B636-42B6-8F1A-3FED7549455E}.Debug|x86.Build.0 = Debug|x86
+		{3979766A-B636-42B6-8F1A-3FED7549455E}.Release|x86.ActiveCfg = Release|x86
+		{3979766A-B636-42B6-8F1A-3FED7549455E}.Release|x86.Build.0 = Release|x86
+		{F662EF87-FF94-40DA-B93C-7B22020BEF58}.Debug|x86.ActiveCfg = Debug|x86
+		{F662EF87-FF94-40DA-B93C-7B22020BEF58}.Debug|x86.Build.0 = Debug|x86
+		{F662EF87-FF94-40DA-B93C-7B22020BEF58}.Release|x86.ActiveCfg = Release|x86
+		{F662EF87-FF94-40DA-B93C-7B22020BEF58}.Release|x86.Build.0 = Release|x86
+		{92E859BC-109F-4247-9766-DE8E59905A2C}.Debug|x86.ActiveCfg = Debug|x86
+		{92E859BC-109F-4247-9766-DE8E59905A2C}.Debug|x86.Build.0 = Debug|x86
+		{92E859BC-109F-4247-9766-DE8E59905A2C}.Release|x86.ActiveCfg = Release|x86
+		{92E859BC-109F-4247-9766-DE8E59905A2C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

@@ -7,8 +7,13 @@ namespace Kolekcije
 	{
 		public static void Main(string[] args)
 		{
-			// Primjer koji pretrazuje polje, koristi se Linq
-			var voce = new List<String>() { "jabuka", "jagoda", "marelica", "breskva", "banana" };
+			// Prazna lista
+			var prazna = new List<String>();
+
+			// Inicijalizacija liste
+			var voce = new List<String>() { "jabuka", "jagoda", "marelica" };
+
+			voce.Add("kruska");
 
 			// Iteriranje po rezultatima
 			foreach (string s in voce)

@@ -1,11 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "Vjezba03\HelloWorld.csproj", "{8E5992B8-88B2-4BF1-A24B-89D84A1B6635}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{8E5992B8-88B2-4BF1-A24B-89D84A1B6635}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pravokutnik", "Pravokutnik\Pravokutnik.csproj", "{3979766A-B636-42B6-8F1A-3FED7549455E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolekcijeList", "Kolekcije\KolekcijeList.csproj", "{F662EF87-FF94-40DA-B93C-7B22020BEF58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolekcijeList", "KolekcijeList\KolekcijeList.csproj", "{F662EF87-FF94-40DA-B93C-7B22020BEF58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolekcijeDictionary", "KolekcijeDictionary\KolekcijeDictionary.csproj", "{92E859BC-109F-4247-9766-DE8E59905A2C}"
 EndProject

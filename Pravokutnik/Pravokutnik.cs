@@ -21,6 +21,19 @@ namespace Pravokutnik
 			}
 		}
 
+		public double Visina
+		{
+			get
+			{
+				return visina;
+			}
+
+			set
+			{
+				visina = value;
+			}
+		}
+
 		// prvi "default" konstruktor
 		public Pravokutnik()
 		{

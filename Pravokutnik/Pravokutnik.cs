@@ -8,13 +8,26 @@ namespace Pravokutnik
 		double sirina;
 		double visina;
 
+		public double Sirina
+		{
+			get
+			{
+				return sirina;
+			}
+
+			set
+			{
+				sirina = value;
+			}
+		}
+
 		// prvi "default" konstruktor
 		public Pravokutnik()
 		{
 		}
 
 		// drugi konstruktor koji prima parametre
-		public Pravokutnik(int a, int b)
+		public Pravokutnik(double a, double b)
 		{
 			this.sirina = a;
 			this.visina = b;
@@ -28,14 +41,23 @@ namespace Pravokutnik
 
 		public double IzracunajPovrsinu()
 		{
-			return sirina * visina;
+			return this.sirina * this.visina;
+		}
+
+		public double IzracunajOpseg()
+		{
+			return 2 * (this.sirina + this.visina);
 		}
 
 		public void IspisiRezultate()
 		{
 			Console.WriteLine("Sirina: {0}", sirina);
 			Console.WriteLine("Visina: {0}", visina);
+
 			Console.WriteLine("Povrsina: {0}", IzracunajPovrsinu());
+
+			var opseg = IzracunajOpseg();
+			Console.WriteLine("Opseg: {0}", 2 * (sirina + visina));
 		}
 	}
 }

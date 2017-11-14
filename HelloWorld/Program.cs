@@ -13,6 +13,8 @@ namespace Vjezba03
 			var prezime = "Horvat";
 			Console.WriteLine("Hello {0} {1}!", ime, prezime);
 			// broj parametara {0...n} mora odgovarati broju predanih varijabli nakon
+
+			Console.ReadKey();
 		}
 	}
 }

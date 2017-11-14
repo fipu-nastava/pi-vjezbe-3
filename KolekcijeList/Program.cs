@@ -20,6 +20,8 @@ namespace Kolekcije
 			{
 				Console.WriteLine(s);
 			}
+
+			Console.ReadKey();
 		}
 	}
 }

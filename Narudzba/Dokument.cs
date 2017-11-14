@@ -3,7 +3,6 @@ namespace Narudzba
 {
 	public class Dokument
 	{
-
 		public Dokument()
 		{
 			this.BrojDokumenta = 1;
@@ -14,6 +13,7 @@ namespace Narudzba
 		{
 			this.BrojDokumenta = brojDokumenta;
 			this.Datum = datum;
+			this.Zakljucen = false;
 		}
 
 		public long BrojDokumenta { get; set; }
@@ -25,6 +25,7 @@ namespace Narudzba
 		public void Zakljuci()
 		{
 			this.Zakljucen = true;
+
 		}
 	}
 }

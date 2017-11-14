@@ -6,7 +6,11 @@ namespace Pravokutnik
 	{
 		static void Main(string[] args)
 		{
-			Pravokutnik r = new Pravokutnik();
+			var r = new Pravokutnik();
+
+			r.sirina = 4;
+			r.visina = 5;
+
 			r.PostaviVrijednosti(4, 5);
 			r.IspisiRezultate();
 

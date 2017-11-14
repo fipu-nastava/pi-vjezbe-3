@@ -5,7 +5,13 @@ namespace Narudzba
 {
 	public class Narudzba : Dokument
 	{
-		private DateTime datumDostave;
+
+
+
+
+
+
+
 		private List<NarudzbaStavka> stavke = new List<NarudzbaStavka>();
 
 		public Narudzba(DateTime dostava) : base()
@@ -13,18 +19,7 @@ namespace Narudzba
 			this.DatumDostave = dostava;
 		}
 
-		public DateTime DatumDostave
-		{
-			get
-			{
-				return datumDostave;
-			}
-
-			set
-			{
-				datumDostave = value;
-			}
-		}
+		public DateTime DatumDostave { get; set; }
 
 		public List<NarudzbaStavka> Stavke
 		{
@@ -53,6 +48,11 @@ namespace Narudzba
 			Console.WriteLine("Narudzba br: {0}", this.BrojDokumenta);
 			Console.WriteLine("Datum narudzbe: {0}", this.Datum);
 			Console.WriteLine("Narudžba {0} zaključena", (this.Zakljucen) ? "je" : "nije");
+
+
+
+
+
 
 			Console.WriteLine("Stavke:");
 			foreach (var s in Stavke)

@@ -44,20 +44,12 @@ namespace Pravokutnik
 			return this.sirina * this.visina;
 		}
 
-		public double IzracunajOpseg()
-		{
-			return 2 * (this.sirina + this.visina);
-		}
-
 		public void IspisiRezultate()
 		{
 			Console.WriteLine("Sirina: {0}", sirina);
 			Console.WriteLine("Visina: {0}", visina);
 
 			Console.WriteLine("Povrsina: {0}", IzracunajPovrsinu());
-
-			var opseg = IzracunajOpseg();
-			Console.WriteLine("Opseg: {0}", 2 * (sirina + visina));
 		}
 	}
 }

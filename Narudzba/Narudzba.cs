@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Narudzba
+namespace Narucivanje
 {
 	public class Narudzba : Dokument
 	{

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Narudzba
+namespace Narucivanje
 {
 	class MainClass
 	{

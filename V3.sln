@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolekcijeList", "KolekcijeL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KolekcijeDictionary", "KolekcijeDictionary\KolekcijeDictionary.csproj", "{92E859BC-109F-4247-9766-DE8E59905A2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imenik", "Imenik\Imenik.csproj", "{0E2A9136-89EC-4BD3-83AF-AE5CFAE9966D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -33,9 +31,5 @@ Global
 		{92E859BC-109F-4247-9766-DE8E59905A2C}.Debug|x86.Build.0 = Debug|x86
 		{92E859BC-109F-4247-9766-DE8E59905A2C}.Release|x86.ActiveCfg = Release|x86
 		{92E859BC-109F-4247-9766-DE8E59905A2C}.Release|x86.Build.0 = Release|x86
-		{0E2A9136-89EC-4BD3-83AF-AE5CFAE9966D}.Debug|x86.ActiveCfg = Debug|x86
-		{0E2A9136-89EC-4BD3-83AF-AE5CFAE9966D}.Debug|x86.Build.0 = Debug|x86
-		{0E2A9136-89EC-4BD3-83AF-AE5CFAE9966D}.Release|x86.ActiveCfg = Release|x86
-		{0E2A9136-89EC-4BD3-83AF-AE5CFAE9966D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
